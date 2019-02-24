@@ -1,0 +1,10 @@
+REGLA->1;METODO;regex:"^TRACE.*";Bloqueo de Metodo TRACE HTTP;codigo:404
+REGLA->2;CUERPO|AGENTE_USUARIO;iregex:".*<script.*>.*</script>.*";Intento de XXS;codigo:500
+REGLA->3;CABECERAS_VALORES;regex:".*\(\){.*}.*;.*";Explotacion de Vulnerabilidad de Tipo --ShellShock-- (CVE-2014-6271);codigo:ignorar
+REGLA->4;COOKIES|AGENTE_USUARIO;iregex:".*666.*";Cookie Maldita;codigo:404
+REGLA->5;RECURSO;iregex:"^mi_cuerpo\.txt$";Nadie puede tocar mi_cuerpo.txt;codigo:500
+REGLA->6;PETICION_LINEA;iregex:".*HTTP\/1\.1.*";Version de HTML no Permitida;codigo:404
+REGLA->7;CLIENTE_IP;iregex:"127\.0\.0\.1";IP no Valida;codigo:404
+REGLA->8;CABECERAS_NOMBRES;iregex:"Johnny-Sins";Cabecera no Permitida;codigo:500
+REGLA->9;CABECERAS;iregex:"El Pelon de Brazzers";Valor de Cabecera no Permitido;codigo:ignorar
+REGLA->7;METODO;regex:"^GET.*";Bloqueo de Metodo GET HTTP;codigo:500

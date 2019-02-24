@@ -1,0 +1,126 @@
+
+2019-02-23 18:30:03.420741;127.0.0.1;9092;127.0.0.1;127.0.0.1;2;Intento de XXS;CUERPO;
+
+GET /mi_cuerpo.txt HTTP/1.1
+Host: 127.0.0.1:9092
+Accept: */*
+Cookie: hex=adecimal; yo=5235423 ; tu=35452 ; beast_no=666
+Header-Test: Negron(){echo;} echo; XD
+User-Agent: No es XXS <script> alert(1); </script> XD
+Johnny-Sins: El Pelon de Brazzers
+Content-Length: 74
+Content-Type: application/x-www-form-urlencoded
+
+Obviamente no vamos a intentar nada malo aqui <script> alert(1); </script>
+
+2019-02-23 18:30:03.420846;127.0.0.1;9092;127.0.0.1;127.0.0.1;2;Intento de XXS;AGENTE_USUARIO;
+
+GET /mi_cuerpo.txt HTTP/1.1
+Host: 127.0.0.1:9092
+Accept: */*
+Cookie: hex=adecimal; yo=5235423 ; tu=35452 ; beast_no=666
+Header-Test: Negron(){echo;} echo; XD
+User-Agent: No es XXS <script> alert(1); </script> XD
+Johnny-Sins: El Pelon de Brazzers
+Content-Length: 74
+Content-Type: application/x-www-form-urlencoded
+
+Obviamente no vamos a intentar nada malo aqui <script> alert(1); </script>
+
+2019-02-23 18:30:03.420897;127.0.0.1;9092;127.0.0.1;127.0.0.1;3;Explotacion de Vulnerabilidad de Tipo --ShellShock-- (CVE-2014-6271);CABECERAS_VALORES;
+
+GET /mi_cuerpo.txt HTTP/1.1
+Host: 127.0.0.1:9092
+Accept: */*
+Cookie: hex=adecimal; yo=5235423 ; tu=35452 ; beast_no=666
+Header-Test: Negron(){echo;} echo; XD
+User-Agent: No es XXS <script> alert(1); </script> XD
+Johnny-Sins: El Pelon de Brazzers
+Content-Length: 74
+Content-Type: application/x-www-form-urlencoded
+
+Obviamente no vamos a intentar nada malo aqui <script> alert(1); </script>
+
+2019-02-23 18:30:03.420935;127.0.0.1;9092;127.0.0.1;127.0.0.1;4;Cookie Maldita;COOKIES;
+
+GET /mi_cuerpo.txt HTTP/1.1
+Host: 127.0.0.1:9092
+Accept: */*
+Cookie: hex=adecimal; yo=5235423 ; tu=35452 ; beast_no=666
+Header-Test: Negron(){echo;} echo; XD
+User-Agent: No es XXS <script> alert(1); </script> XD
+Johnny-Sins: El Pelon de Brazzers
+Content-Length: 74
+Content-Type: application/x-www-form-urlencoded
+
+Obviamente no vamos a intentar nada malo aqui <script> alert(1); </script>
+
+2019-02-23 18:30:03.420982;127.0.0.1;9092;127.0.0.1;127.0.0.1;5;Nadie puede tocar mi_cuerpo.txt;RECURSO;
+
+GET /mi_cuerpo.txt HTTP/1.1
+Host: 127.0.0.1:9092
+Accept: */*
+Cookie: hex=adecimal; yo=5235423 ; tu=35452 ; beast_no=666
+Header-Test: Negron(){echo;} echo; XD
+User-Agent: No es XXS <script> alert(1); </script> XD
+Johnny-Sins: El Pelon de Brazzers
+Content-Length: 74
+Content-Type: application/x-www-form-urlencoded
+
+Obviamente no vamos a intentar nada malo aqui <script> alert(1); </script>
+
+2019-02-23 18:30:03.421017;127.0.0.1;9092;127.0.0.1;127.0.0.1;6;Version de HTML no Permitida;PETICION_LINEA;
+
+GET /mi_cuerpo.txt HTTP/1.1
+Host: 127.0.0.1:9092
+Accept: */*
+Cookie: hex=adecimal; yo=5235423 ; tu=35452 ; beast_no=666
+Header-Test: Negron(){echo;} echo; XD
+User-Agent: No es XXS <script> alert(1); </script> XD
+Johnny-Sins: El Pelon de Brazzers
+Content-Length: 74
+Content-Type: application/x-www-form-urlencoded
+
+Obviamente no vamos a intentar nada malo aqui <script> alert(1); </script>
+
+2019-02-23 18:30:03.421051;127.0.0.1;9092;127.0.0.1;127.0.0.1;7;IP no Valida;CLIENTE_IP;
+
+GET /mi_cuerpo.txt HTTP/1.1
+Host: 127.0.0.1:9092
+Accept: */*
+Cookie: hex=adecimal; yo=5235423 ; tu=35452 ; beast_no=666
+Header-Test: Negron(){echo;} echo; XD
+User-Agent: No es XXS <script> alert(1); </script> XD
+Johnny-Sins: El Pelon de Brazzers
+Content-Length: 74
+Content-Type: application/x-www-form-urlencoded
+
+Obviamente no vamos a intentar nada malo aqui <script> alert(1); </script>
+
+2019-02-23 18:30:03.421088;127.0.0.1;9092;127.0.0.1;127.0.0.1;8;Cabecera no Permitida;CABECERAS_NOMBRES;
+
+GET /mi_cuerpo.txt HTTP/1.1
+Host: 127.0.0.1:9092
+Accept: */*
+Cookie: hex=adecimal; yo=5235423 ; tu=35452 ; beast_no=666
+Header-Test: Negron(){echo;} echo; XD
+User-Agent: No es XXS <script> alert(1); </script> XD
+Johnny-Sins: El Pelon de Brazzers
+Content-Length: 74
+Content-Type: application/x-www-form-urlencoded
+
+Obviamente no vamos a intentar nada malo aqui <script> alert(1); </script>
+
+2019-02-23 18:30:03.421125;127.0.0.1;9092;127.0.0.1;127.0.0.1;9;Valor de Cabecera no Permitido;CABECERAS;
+
+GET /mi_cuerpo.txt HTTP/1.1
+Host: 127.0.0.1:9092
+Accept: */*
+Cookie: hex=adecimal; yo=5235423 ; tu=35452 ; beast_no=666
+Header-Test: Negron(){echo;} echo; XD
+User-Agent: No es XXS <script> alert(1); </script> XD
+Johnny-Sins: El Pelon de Brazzers
+Content-Length: 74
+Content-Type: application/x-www-form-urlencoded
+
+Obviamente no vamos a intentar nada malo aqui <script> alert(1); </script>
